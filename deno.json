@@ -1,7 +1,7 @@
 {
     "tasks": {
       "start": "deno run --allow-net --allow-read src/deno_index.ts",
-      "deploy": "deployctl deploy --project=eproxy src/deno_index.ts",
-      "deploy:prod": "deployctl deploy --prod --project=eproxy src/deno_index.ts"
+      "deploy": "deployctl deploy --project=proxy-echo src/deno_index.ts",
+      "deploy:prod": "deployctl deploy --prod --project=proxy-echo src/deno_index.ts"
     }
 }
